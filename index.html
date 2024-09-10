@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physics wallah</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+    /* Hero section with parallax effect */
+    .hero-section {
+        background-image: url('C:/Users/maury/OneDrive/Desktop/Documents/Downloads/videoframe_0.png'); /* Update to your correct image path */
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed; /* This enables the parallax effect */
+        height: 100vh; /* Full viewport height */
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    /* Styling for text inside the hero section */
+    .hero-content h1 {
+        font-size: 3rem;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    }
+
+    .hero-content p {
+        font-size: 1.25rem;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    }
+
+    /* General section styling */
+    section {
+        padding: 60px 0;
+    }
+
+    /* Footer with a background image */
+    footer {
+        background-image: url('C:/Users/maury/OneDrive/Desktop/Documents/Downloads/mountain.jpg');
+        background-size: cover;
+        background-position: bottom;
+        color: white;
+        padding: 60px 0;
+    }
+
+    footer p {
+        margin: 0;
+    }
+</style>
+<body>
+    
+    <!-- Header -->
+    <header class="d-flex justify-content-between align-items-center p-3">
+        <div class="logo">
+            <h1>Physics wallah</h1>
+        </div>
+        <nav>
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#solutions">Solutions</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="#about" class="btn btn-primary">Learn More</a>
+    </header>
+
+    <!-- Hero Section with Parallax Effect -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Transforming Education with Technology</h1>
+            <p>Empowering educators and students with innovative tech solutions for enhanced learning.</p>
+            <a href="#about" class="btn btn-success">Get Started</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section p-5 text-center">
+        <h2>About Physics wallah</h2>
+        <p>Physics wallah is at the forefront of the educational technology revolution, providing digital platforms and tools to make learning more accessible, interactive, and engaging. Our solutions enhance the traditional classroom experience and foster personalized learning for students everywhere.</p>
+        <div class="icons d-flex justify-content-center">
+            <div class="icon-item m-3">
+                <img src="images/icon1.png" alt="Interactive Learning" width="50">
+                <p>Interactive Learning</p>
+            </div>
+            <div class="icon-item m-3">
+                <img src="images/icon2.png" alt="Accessible Education" width="50">
+                <p>Accessible Education</p>
+            </div>
+            <div class="icon-item m-3">
+                <img src="images/icon3.png" alt="Personalized Learning" width="50">
+                <p>Personalized Learning</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section id="solutions" class="solutions-section p-5 text-center">
+        <h2>Our Solutions</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card p-3 mb-3">
+                    <h3>Virtual Classrooms</h3>
+                    <p>Connecting educators and students from anywhere with real-time interaction and collaboration tools.</p>
+                    <a href="#" class="btn btn-outline-primary">Learn More</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3 mb-3">
+                    <h3>E-Learning Platforms</h3>
+                    <p>Empowering self-paced learning through comprehensive digital courses and resources.</p>
+                    <a href="#" class="btn btn-outline-primary">Learn More</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3 mb-3">
+                    <h3>AI-Powered Tutoring</h3>
+                    <p>Personalized learning experiences driven by AI that adapt to each student's needs and pace.</p>
+                    <a href="#" class="btn btn-outline-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section p-5 text-center">
+        <h2>Contact Us</h2>
+        <form action="#" method="POST" class="contact-form">
+            <div class="mb-3">
+                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+            </div>
+            <div class="mb-3">
+                <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+            </div>
+            <div class="mb-3">
+                <textarea name="message" class="form-control" placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer with Background Image -->
+    <footer class="text-center bg-dark text-white">
+        <p>&copy; 2024 Physics wallah. All rights reserved.</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
